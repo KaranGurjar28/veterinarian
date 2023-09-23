@@ -1,0 +1,664 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins',sans-serif;
+}
+
+
+/* header styling starts here */
+
+.header{
+    
+    width: 100%;
+    background-color: #daac00;
+}
+
+nav{
+    padding: 10px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+    padding-left: 20px;
+}
+
+.menu{
+  display: none;
+  justify-content: left;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #fcc302;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); 
+  }
+  
+  .search::placeholder{
+    color: #ffffff;
+  }
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 19%;
+    padding: 10px;
+    background: #00bec9;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    height: 46.4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* header styling ends here */
+
+
+/* 1st page styling starts here */
+
+.intro{
+    display: flex;
+    padding: 20px;
+    background-color: #fcc302;
+}
+
+.left-content{
+    width: 50%;
+    font-size: 40px;
+    color: #333;
+    padding: 150px 100px;
+}
+
+.right-content{
+    width: 50%;
+    text-align: center;
+    padding: 50px 50px 50px 0px;
+}
+
+.p {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.title{
+    color: #ffffff;
+}
+
+.paragraph{
+    color: #ffffff;
+}
+
+.photo{
+    max-height: 600px;
+    max-width: 4000px;
+}
+
+.container {
+    display: flex;
+    padding-top: 30px;
+    gap: 15px;
+}
+
+.button {
+    padding: 10px 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fcc302;
+}
+
+.button-blue {
+    background-color: #00bec9;
+}
+
+.border-one{
+    border: 3px solid white;
+}
+
+/* 1st page styling ends here */
+
+
+/* 2nd page styling starts here */
+
+.info{
+    display: flex;
+    padding: 20px;
+}
+
+.left-info{
+    width: 50%;
+    font-size: 40px;
+    color: #333;
+    padding: 120px 0px 130px 180px;
+}
+
+.para2{
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.right-info{
+    width: 50%;
+    text-align: center;
+    padding: 50px 80px 50px 0px;
+}
+
+.service{
+    max-height: 600px;
+    max-width: 4000px;
+}
+
+.contai{
+    display: flex;
+    padding-top: 30px;
+}
+
+.info-button{
+    padding: 10px 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fcc302;
+}
+
+/* 2nd page styling ends here */
+
+
+/* 3rd page styling starts here */
+
+.page-third{
+    background-color: #fcc302;
+    color: #ffffff;
+}
+
+.ti{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.para-third{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 350px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 20px 150px;
+    gap: 0px;
+}
+
+.img{
+    margin: 10px;
+    text-align: center;
+}
+
+.img-parag{
+    max-width: fit-content;
+    margin-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 3rd page styling ends here */
+
+
+/* 4th page styling starts here */
+
+.forth{
+    display: flex;
+    padding: 20px;
+}
+
+.left-forth{
+    width: 50%;
+    text-align: center;
+    padding: 50px 0px 50px 80px;
+}
+
+.img-forth{
+    max-height: 600px;
+    max-width: 4000px;
+
+}
+
+.right-forth{
+    width: 50%;
+    font-size: 40px;
+    color: #333;
+    padding: 120px 10px 130px 00px;
+    text-align: right;
+}   
+
+.forth-para{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.forth-button{
+    display: flex;
+    padding-top: 50px;
+}
+
+.forth-button{
+    padding: 5px 5px;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fcc302;
+}
+
+/* 4th page styling ends here */
+
+
+
+/* 5th page styling starts here */
+
+.fifth{
+    background-color: #fcc302;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.titl{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.para-fifth{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 350px;
+}
+
+.fifth-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 20px 150px;
+    gap: 30px;
+}
+
+.fif-img{
+    margin: 0px;
+    text-align: center;
+}
+
+.buton{
+    margin-top: 15px;
+   padding: 5px 30px;
+    background-color: #00bec9;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.fif-head{
+    padding-top: 20px;
+}
+
+/* 5th page styling ends here */
+
+
+/* 6th page styling starts here */
+
+.sixth{
+    color: #333;
+    padding-bottom: 15px;
+}
+
+.six-title{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.six-para{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 350px;
+}
+
+.six-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 20px 150px;
+    gap: 50px;
+    max-width: 70%;
+    padding-left: 230px;
+}
+
+.imgsi{
+    /* margin: -20px; */
+    text-align: center;
+}
+
+.six-head{
+    padding-top: 20px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 23px;
+    width: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .six-anch{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .fa-facebook {
+    background: #daac00;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #daac00;
+    color: white;
+  }  
+
+  .fa-twitter {
+    background: #daac00;
+    color: white;
+  }  
+  .fa-whatsapp {
+    background: #daac00;
+    color: white;
+  }
+  
+  /* 6th page styling ends here */
+
+
+  /* 7th page styling starts here */
+
+  
+  .seventh{
+    background-image: url(./resources/resources/Backgrounds/achievements-background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 250px;
+  }
+
+  .sev-icon{
+    color: #ffffff;
+    max-height: 100px;
+    padding-left: 70px;
+    filter: brightness(0) invert(1);
+  }
+
+  .seve-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* 7th page styling ends here */
+
+
+  /* 8th page styling starts here */
+.eig-ti{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    color: #333;
+}
+
+.eig-para{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 350px;
+    color: #333;
+    font-size: 18px;
+}
+
+.eig-cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 20px 200px;
+    gap: 40px;
+}
+
+  .cards{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 40%;
+  }
+
+  .containers-eig{
+    display: flex;
+    flex-direction: column;
+    font-size:25px;
+    padding: 30px 30px 10px 30px;
+    color: #333;
+  }
+
+  .eig-headers{
+    color: #00bec9;
+    font-size: 17.5px;
+    padding-top: 5px;
+  }
+
+  .eig-paragr{
+    font-size: 15.5px;
+    padding-top: 15px;
+    color: #333;
+  }
+
+  .read-more{
+    background: none;
+    border: 0px;
+    font-size: 18px;
+    color: #00bec9;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+
+  .nine{
+    background-color: #333;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+  }
+
+  .abt{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .button-about{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding-top: 0px;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 0px;
+    width: 10px;
+    padding-top: 15px;
+  }
+
+  .title-foot{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .serv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .button-seerv{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding-top: 0px;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 0px;
+    width: 0px;
+    padding-top: 15px;
+  }
+
+  form.exa input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #fcc302;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); 
+  }
+
+  form.exa button {
+    float: left;
+    width: 19%;
+    padding: 10px;
+    background: #00bec9;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    height: 46.4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  }
+
+  form.exa::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .fa-telegram{
+    border-radius: 0%;
+    color: #ffffff;
+    background: none;
+  }
+  .exa{
+    margin-top: 30px;
+    width: 120%;
+  }
+
+  .soc{
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+  }
+
+  .soc .fa-facebook {
+    background: #ffffff;
+    color: #333;
+  }
+
+  .soc .fa-instagram {
+    background: #ffffff;
+    color: #333;
+  }  
+
+  .soc .fa-twitter {
+    background: #ffffff;
+    color: #333;
+  }  
+.soc .fa-whatsapp {
+    background: #ffffff;
+    color: #333;
+  }
+
+  .soc .fa {
+    padding: 5px;
+    font-size: 23px;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
